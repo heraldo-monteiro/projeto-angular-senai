@@ -11,3 +11,8 @@
     padding: 5px;
    }
  
+   a{
+    text-decoration: nome;
+    color: white;
+    cursor: pointer;
+   }

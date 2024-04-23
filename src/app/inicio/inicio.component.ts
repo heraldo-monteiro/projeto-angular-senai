@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-
 import {MatCardModule} from '@angular/material/card';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatGridListModule} from '@angular/material/grid-list';
+//import { RouterModule, Routes } from '@angular/router';
 //import {MatIconModule} from '@angular/material/icon';
 //import {MatInputModule} from '@angular/material/input';
 //import {MatMenuModule} from '@angular/material/menu';
@@ -12,13 +12,16 @@ import {MatGridListModule} from '@angular/material/grid-list';
 //import { MenuComponent } from './menu/menu.component';
 //import { RodapeComponent } from './rodape/rodape.component';
 
+import { RouterModule, Routes} from '@angular/router';
+
 
 @Component({
   selector: 'app-inicio',
   standalone: true,
   imports: [
     MatCardModule,
-    MatGridListModule
+    MatGridListModule,
+    RouterModule
   ],
   templateUrl: './inicio.component.html',
   styleUrl: './inicio.component.css'
