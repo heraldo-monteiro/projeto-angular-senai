@@ -7,7 +7,10 @@ import { RouterModule, Routes} from '@angular/router';
 @Component({
   selector: 'app-menu',
   standalone: true,
-  imports: [MatToolbarModule,MatIconModule,RouterModule],
+  imports: [MatToolbarModule,
+    MatIconModule,
+    RouterModule
+  ],
   templateUrl: './menu.component.html',
   styleUrl: './menu.component.css'
 })
